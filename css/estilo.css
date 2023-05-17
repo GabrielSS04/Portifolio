@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+}
+
+main{
+    background-image: url(../imagens/background-portfolio2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: white;
+}
+
+main .informacoes{
+    background-color: #1b1b1b;
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    padding: 25px;
+    justify-content: center;
+    border-radius: 5px;
+    border: solid 2px #ff00a2b4;
+    text-align: center;
+}
+
+main .perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../imagens/perfil.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px auto;
+    border: solid 2px #ff00a2b4;
+}
+
+.nome{
+    font-size: 18pt;
+    font-family: 'Silkscreen', cursive;
+}
+
+.prof{
+    font-size: 12pt;
+    color: #ffaeae;
+    font-family: 'Silkscreen', cursive;
+}
+
+main .sobre{
+    width: 260px;
+    height: 150px;
+    overflow-y: scroll;
+    margin: 5px auto 25px;
+    padding: 15px;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #ff00a2;
+    border-radius: 20px;
+    border: 3px solid #3d3d3d;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #3d3d3d;
+    border-radius: 20px;
+}
+
+main .botoes{
+    display: flex;
+    margin: 40px auto 20px;
+}
+
+main .botao{
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    background-color: #313131;
+    border: 1px solid rgba(0, 0, 0, 0.401);
+}
+
+main .imagem-botao{
+    width: 20px;
+}
+
+main .redes-social{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+}
+
+main .redes-social a{
+    position: absolute;
+    display: flex;
+}
+
+main .rede-social{
+    width: 40px;
+    border-radius: 50%;
+}
+
+main a{
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+main .ativo{
+    scale: 1.02;
+    background-color: #595959;
+}
+
+main .botao:active{
+    scale: 0.95;
+}
+
+main .descricao {
+    display: none;
+    min-height: 180px;
+    max-height: 180px;
+    margin: 25px 0;
+    font-size: 14pt;
+}
+
+main .info{
+    min-height: 180px;
+    max-height: 180px;
+    margin: 25px 0;
+    overflow-y: scroll;
+    font-size: 14pt;
+}
+
+main .info ul{
+    list-style: none;
+}
+
+main .info ul li{
+    text-align: left;
+    padding: 3px;
+}
+
+main .info ul li.tit{
+    padding: 20px 0;
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+
+main .info ul li.esc{
+    padding: 10px 0;
+}
+
+main .descricao p.parag{
+    font-size: 20pt;
+}
+
+main .projetos{
+    display: none;
+    min-height: 180px;
+    max-height: 180px;
+    margin: 25px 0;
+    overflow-y: scroll;
+    font-size: 14pt;
+    text-align: left;
+    font-size: 14pt;
+    text-align: left;
+}
+
+main .projetos .tit{
+    padding: 15px;
+    font-size: 20pt;
+    text-align: center;
+}
+
+main .info .tit{
+    padding: 10px;
+    font-size: 20pt;
+    text-align: center;
+}
+
+main .projetos ul li{
+    padding: 6px 0;
+}
+
+main .projetos ul li a{
+    text-decoration: none;
+    color: #ff00a2;
+}
+
+main .projetos ul li a:visited{
+    color: rgb(255, 185, 247);
+}
